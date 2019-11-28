@@ -1,0 +1,17 @@
+[XD][ INFO] 2019-11-27 17:44:54 [main] SpringbatisApplication#logStarting:50 - Starting SpringbatisApplication on ITP0020 with PID 33384 (D:\00-installtools\ideaWorkspace\springbatis\target\classes started by 002832 in D:\00-installtools\ideaWorkspace\springbatis)
+[XD][ INFO] 2019-11-27 17:44:54 [main] SpringbatisApplication#logStartupProfileInfo:648 - No active profile set, falling back to default profiles: default
+[XD][ INFO] 2019-11-27 17:44:55 [main] TomcatWebServer#initialize:90 - Tomcat initialized with port(s): 8089 (http)
+[XD][ INFO] 2019-11-27 17:44:55 [main] Http11NioProtocol#log:173 - Initializing ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-27 17:44:55 [main] StandardService#log:173 - Starting service [Tomcat]
+[XD][ INFO] 2019-11-27 17:44:55 [main] StandardEngine#log:173 - Starting Servlet engine: [Apache Tomcat/9.0.24]
+[XD][ INFO] 2019-11-27 17:44:56 [main] [/]#log:173 - Initializing Spring embedded WebApplicationContext
+[XD][ INFO] 2019-11-27 17:44:56 [main] ContextLoader#prepareWebApplicationContext:284 - Root WebApplicationContext: initialization completed in 1973 ms
+[XD][ INFO] 2019-11-27 17:44:56 [main] ThreadPoolTaskExecutor#initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-27 17:44:56 [main] Http11NioProtocol#log:173 - Starting ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-27 17:44:56 [main] TomcatWebServer#start:202 - Tomcat started on port(s): 8089 (http) with context path ''
+[XD][ INFO] 2019-11-27 17:44:56 [main] SpringbatisApplication#logStarted:59 - Started SpringbatisApplication in 3.384 seconds (JVM running for 4.326)
+[XD][ INFO] 2019-11-27 17:45:16 [http-nio-8089-exec-1] [/]#log:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[XD][ INFO] 2019-11-27 17:45:16 [http-nio-8089-exec-1] DispatcherServlet#initServletBean:524 - Initializing Servlet 'dispatcherServlet'
+[XD][ INFO] 2019-11-27 17:45:16 [http-nio-8089-exec-1] DispatcherServlet#initServletBean:546 - Completed initialization in 5 ms
+[XD][ INFO] 2019-11-27 17:45:16 [http-nio-8089-exec-1] UserController#addUser:25 - 用户com.ext.springbatis.model.User@5d353f90
+[XD][ INFO] 2019-11-27 17:45:16 [http-nio-8089-exec-1] DruidDataSource#init:667 - {dataSource-1} inited

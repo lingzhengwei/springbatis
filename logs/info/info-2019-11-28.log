@@ -1,0 +1,111 @@
+[XD][ INFO] 2019-11-28 10:02:35 [main] SpringbatisApplication#logStarting:50 - Starting SpringbatisApplication on ITP0020 with PID 46624 (D:\00-installtools\ideaWorkspace\springbatis\target\classes started by 002832 in D:\00-installtools\ideaWorkspace\springbatis)
+[XD][ INFO] 2019-11-28 10:02:35 [main] SpringbatisApplication#logStartupProfileInfo:648 - No active profile set, falling back to default profiles: default
+[XD][ INFO] 2019-11-28 10:02:36 [main] TomcatWebServer#initialize:90 - Tomcat initialized with port(s): 8089 (http)
+[XD][ INFO] 2019-11-28 10:02:36 [main] Http11NioProtocol#log:173 - Initializing ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 10:02:36 [main] StandardService#log:173 - Starting service [Tomcat]
+[XD][ INFO] 2019-11-28 10:02:36 [main] StandardEngine#log:173 - Starting Servlet engine: [Apache Tomcat/9.0.24]
+[XD][ INFO] 2019-11-28 10:02:36 [main] [/]#log:173 - Initializing Spring embedded WebApplicationContext
+[XD][ INFO] 2019-11-28 10:02:36 [main] ContextLoader#prepareWebApplicationContext:284 - Root WebApplicationContext: initialization completed in 1182 ms
+[XD][ INFO] 2019-11-28 10:02:36 [main] ThreadPoolTaskExecutor#initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 10:02:37 [main] Http11NioProtocol#log:173 - Starting ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 10:02:37 [main] TomcatWebServer#start:202 - Tomcat started on port(s): 8089 (http) with context path ''
+[XD][ INFO] 2019-11-28 10:02:37 [main] SpringbatisApplication#logStarted:59 - Started SpringbatisApplication in 3.16 seconds (JVM running for 4.049)
+[XD][ INFO] 2019-11-28 10:03:14 [http-nio-8089-exec-1] [/]#log:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[XD][ INFO] 2019-11-28 10:03:14 [http-nio-8089-exec-1] DispatcherServlet#initServletBean:524 - Initializing Servlet 'dispatcherServlet'
+[XD][ INFO] 2019-11-28 10:03:14 [http-nio-8089-exec-1] DispatcherServlet#initServletBean:546 - Completed initialization in 6 ms
+[XD][ INFO] 2019-11-28 10:04:06 [main] SpringbatisApplication#logStarting:50 - Starting SpringbatisApplication on ITP0020 with PID 47472 (D:\00-installtools\ideaWorkspace\springbatis\target\classes started by 002832 in D:\00-installtools\ideaWorkspace\springbatis)
+[XD][ INFO] 2019-11-28 10:04:06 [main] SpringbatisApplication#logStartupProfileInfo:648 - No active profile set, falling back to default profiles: default
+[XD][ INFO] 2019-11-28 10:04:07 [main] TomcatWebServer#initialize:90 - Tomcat initialized with port(s): 8089 (http)
+[XD][ INFO] 2019-11-28 10:04:07 [main] Http11NioProtocol#log:173 - Initializing ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 10:04:07 [main] StandardService#log:173 - Starting service [Tomcat]
+[XD][ INFO] 2019-11-28 10:04:07 [main] StandardEngine#log:173 - Starting Servlet engine: [Apache Tomcat/9.0.24]
+[XD][ INFO] 2019-11-28 10:04:07 [main] [/]#log:173 - Initializing Spring embedded WebApplicationContext
+[XD][ INFO] 2019-11-28 10:04:07 [main] ContextLoader#prepareWebApplicationContext:284 - Root WebApplicationContext: initialization completed in 1439 ms
+[XD][ INFO] 2019-11-28 10:04:08 [main] ThreadPoolTaskExecutor#initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 10:04:08 [main] Http11NioProtocol#log:173 - Starting ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 10:04:08 [main] TomcatWebServer#start:202 - Tomcat started on port(s): 8089 (http) with context path ''
+[XD][ INFO] 2019-11-28 10:04:08 [main] SpringbatisApplication#logStarted:59 - Started SpringbatisApplication in 4.524 seconds (JVM running for 6.032)
+[XD][ INFO] 2019-11-28 10:04:14 [http-nio-8089-exec-1] [/]#log:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[XD][ INFO] 2019-11-28 10:04:14 [http-nio-8089-exec-1] DispatcherServlet#initServletBean:524 - Initializing Servlet 'dispatcherServlet'
+[XD][ INFO] 2019-11-28 10:04:14 [http-nio-8089-exec-1] DispatcherServlet#initServletBean:546 - Completed initialization in 6 ms
+[XD][ INFO] 2019-11-28 10:04:14 [http-nio-8089-exec-1] DruidDataSource#init:667 - {dataSource-1} inited
+[XD][ INFO] 2019-11-28 10:05:05 [main] SpringbatisApplication#logStarting:50 - Starting SpringbatisApplication on ITP0020 with PID 46008 (D:\00-installtools\ideaWorkspace\springbatis\target\classes started by 002832 in D:\00-installtools\ideaWorkspace\springbatis)
+[XD][ INFO] 2019-11-28 10:05:05 [main] SpringbatisApplication#logStartupProfileInfo:648 - No active profile set, falling back to default profiles: default
+[XD][ INFO] 2019-11-28 10:05:07 [main] TomcatWebServer#initialize:90 - Tomcat initialized with port(s): 8089 (http)
+[XD][ INFO] 2019-11-28 10:05:07 [main] Http11NioProtocol#log:173 - Initializing ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 10:05:07 [main] StandardService#log:173 - Starting service [Tomcat]
+[XD][ INFO] 2019-11-28 10:05:07 [main] StandardEngine#log:173 - Starting Servlet engine: [Apache Tomcat/9.0.24]
+[XD][ INFO] 2019-11-28 10:05:07 [main] [/]#log:173 - Initializing Spring embedded WebApplicationContext
+[XD][ INFO] 2019-11-28 10:05:07 [main] ContextLoader#prepareWebApplicationContext:284 - Root WebApplicationContext: initialization completed in 1686 ms
+[XD][ INFO] 2019-11-28 10:05:08 [main] ThreadPoolTaskExecutor#initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 10:05:08 [main] Http11NioProtocol#log:173 - Starting ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 10:05:08 [main] TomcatWebServer#start:202 - Tomcat started on port(s): 8089 (http) with context path ''
+[XD][ INFO] 2019-11-28 10:05:08 [main] SpringbatisApplication#logStarted:59 - Started SpringbatisApplication in 3.466 seconds (JVM running for 4.262)
+[XD][ INFO] 2019-11-28 10:05:14 [http-nio-8089-exec-1] [/]#log:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[XD][ INFO] 2019-11-28 10:05:14 [http-nio-8089-exec-1] DispatcherServlet#initServletBean:524 - Initializing Servlet 'dispatcherServlet'
+[XD][ INFO] 2019-11-28 10:05:14 [http-nio-8089-exec-1] DispatcherServlet#initServletBean:546 - Completed initialization in 6 ms
+[XD][ INFO] 2019-11-28 10:05:14 [http-nio-8089-exec-1] DruidDataSource#init:667 - {dataSource-1} inited
+[XD][ INFO] 2019-11-28 10:05:53 [main] SpringbatisApplication#logStarting:50 - Starting SpringbatisApplication on ITP0020 with PID 46788 (D:\00-installtools\ideaWorkspace\springbatis\target\classes started by 002832 in D:\00-installtools\ideaWorkspace\springbatis)
+[XD][ INFO] 2019-11-28 10:05:53 [main] SpringbatisApplication#logStartupProfileInfo:648 - No active profile set, falling back to default profiles: default
+[XD][ INFO] 2019-11-28 10:05:55 [main] TomcatWebServer#initialize:90 - Tomcat initialized with port(s): 8089 (http)
+[XD][ INFO] 2019-11-28 10:05:55 [main] Http11NioProtocol#log:173 - Initializing ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 10:05:55 [main] StandardService#log:173 - Starting service [Tomcat]
+[XD][ INFO] 2019-11-28 10:05:55 [main] StandardEngine#log:173 - Starting Servlet engine: [Apache Tomcat/9.0.24]
+[XD][ INFO] 2019-11-28 10:05:55 [main] [/]#log:173 - Initializing Spring embedded WebApplicationContext
+[XD][ INFO] 2019-11-28 10:05:55 [main] ContextLoader#prepareWebApplicationContext:284 - Root WebApplicationContext: initialization completed in 1773 ms
+[XD][ INFO] 2019-11-28 10:05:56 [main] ThreadPoolTaskExecutor#initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 10:05:56 [main] Http11NioProtocol#log:173 - Starting ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 10:05:56 [main] TomcatWebServer#start:202 - Tomcat started on port(s): 8089 (http) with context path ''
+[XD][ INFO] 2019-11-28 10:05:56 [main] SpringbatisApplication#logStarted:59 - Started SpringbatisApplication in 3.188 seconds (JVM running for 3.96)
+[XD][ INFO] 2019-11-28 10:05:56 [http-nio-8089-exec-1] [/]#log:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[XD][ INFO] 2019-11-28 10:05:56 [http-nio-8089-exec-1] DispatcherServlet#initServletBean:524 - Initializing Servlet 'dispatcherServlet'
+[XD][ INFO] 2019-11-28 10:05:56 [http-nio-8089-exec-1] DispatcherServlet#initServletBean:546 - Completed initialization in 8 ms
+[XD][ INFO] 2019-11-28 10:05:56 [http-nio-8089-exec-1] DruidDataSource#init:667 - {dataSource-1} inited
+[XD][ INFO] 2019-11-28 10:06:26 [main] SpringbatisApplication#logStarting:50 - Starting SpringbatisApplication on ITP0020 with PID 43716 (D:\00-installtools\ideaWorkspace\springbatis\target\classes started by 002832 in D:\00-installtools\ideaWorkspace\springbatis)
+[XD][ INFO] 2019-11-28 10:06:26 [main] SpringbatisApplication#logStartupProfileInfo:648 - No active profile set, falling back to default profiles: default
+[XD][ INFO] 2019-11-28 10:06:28 [main] TomcatWebServer#initialize:90 - Tomcat initialized with port(s): 8089 (http)
+[XD][ INFO] 2019-11-28 10:06:28 [main] Http11NioProtocol#log:173 - Initializing ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 10:06:28 [main] StandardService#log:173 - Starting service [Tomcat]
+[XD][ INFO] 2019-11-28 10:06:28 [main] StandardEngine#log:173 - Starting Servlet engine: [Apache Tomcat/9.0.24]
+[XD][ INFO] 2019-11-28 10:06:28 [main] [/]#log:173 - Initializing Spring embedded WebApplicationContext
+[XD][ INFO] 2019-11-28 10:06:28 [main] ContextLoader#prepareWebApplicationContext:284 - Root WebApplicationContext: initialization completed in 1898 ms
+[XD][ INFO] 2019-11-28 10:06:28 [main] ThreadPoolTaskExecutor#initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 10:06:29 [main] Http11NioProtocol#log:173 - Starting ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 10:06:29 [main] TomcatWebServer#start:202 - Tomcat started on port(s): 8089 (http) with context path ''
+[XD][ INFO] 2019-11-28 10:06:29 [main] SpringbatisApplication#logStarted:59 - Started SpringbatisApplication in 3.156 seconds (JVM running for 3.936)
+[XD][ INFO] 2019-11-28 10:06:42 [http-nio-8089-exec-1] [/]#log:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[XD][ INFO] 2019-11-28 10:06:42 [http-nio-8089-exec-1] DispatcherServlet#initServletBean:524 - Initializing Servlet 'dispatcherServlet'
+[XD][ INFO] 2019-11-28 10:06:42 [http-nio-8089-exec-1] DispatcherServlet#initServletBean:546 - Completed initialization in 9 ms
+[XD][ INFO] 2019-11-28 10:06:42 [http-nio-8089-exec-1] DruidDataSource#init:667 - {dataSource-1} inited
+[XD][ INFO] 2019-11-28 10:07:08 [main] SpringbatisApplication#logStarting:50 - Starting SpringbatisApplication on ITP0020 with PID 43800 (D:\00-installtools\ideaWorkspace\springbatis\target\classes started by 002832 in D:\00-installtools\ideaWorkspace\springbatis)
+[XD][ INFO] 2019-11-28 10:07:08 [main] SpringbatisApplication#logStartupProfileInfo:648 - No active profile set, falling back to default profiles: default
+[XD][ INFO] 2019-11-28 10:07:09 [main] TomcatWebServer#initialize:90 - Tomcat initialized with port(s): 8089 (http)
+[XD][ INFO] 2019-11-28 10:07:09 [main] Http11NioProtocol#log:173 - Initializing ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 10:07:09 [main] StandardService#log:173 - Starting service [Tomcat]
+[XD][ INFO] 2019-11-28 10:07:09 [main] StandardEngine#log:173 - Starting Servlet engine: [Apache Tomcat/9.0.24]
+[XD][ INFO] 2019-11-28 10:07:09 [main] [/]#log:173 - Initializing Spring embedded WebApplicationContext
+[XD][ INFO] 2019-11-28 10:07:09 [main] ContextLoader#prepareWebApplicationContext:284 - Root WebApplicationContext: initialization completed in 1392 ms
+[XD][ INFO] 2019-11-28 10:07:10 [main] ThreadPoolTaskExecutor#initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 10:07:10 [main] Http11NioProtocol#log:173 - Starting ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 10:07:10 [main] TomcatWebServer#start:202 - Tomcat started on port(s): 8089 (http) with context path ''
+[XD][ INFO] 2019-11-28 10:07:10 [main] SpringbatisApplication#logStarted:59 - Started SpringbatisApplication in 2.68 seconds (JVM running for 3.351)
+[XD][ INFO] 2019-11-28 10:07:17 [http-nio-8089-exec-1] [/]#log:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[XD][ INFO] 2019-11-28 10:07:17 [http-nio-8089-exec-1] DispatcherServlet#initServletBean:524 - Initializing Servlet 'dispatcherServlet'
+[XD][ INFO] 2019-11-28 10:07:17 [http-nio-8089-exec-1] DispatcherServlet#initServletBean:546 - Completed initialization in 6 ms
+[XD][ INFO] 2019-11-28 10:07:17 [http-nio-8089-exec-1] DruidDataSource#init:667 - {dataSource-1} inited
+[XD][ INFO] 2019-11-28 10:07:54 [main] SpringbatisApplication#logStarting:50 - Starting SpringbatisApplication on ITP0020 with PID 48484 (D:\00-installtools\ideaWorkspace\springbatis\target\classes started by 002832 in D:\00-installtools\ideaWorkspace\springbatis)
+[XD][ INFO] 2019-11-28 10:07:54 [main] SpringbatisApplication#logStartupProfileInfo:648 - No active profile set, falling back to default profiles: default
+[XD][ INFO] 2019-11-28 10:07:55 [main] TomcatWebServer#initialize:90 - Tomcat initialized with port(s): 8089 (http)
+[XD][ INFO] 2019-11-28 10:07:56 [main] Http11NioProtocol#log:173 - Initializing ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 10:07:56 [main] StandardService#log:173 - Starting service [Tomcat]
+[XD][ INFO] 2019-11-28 10:07:56 [main] StandardEngine#log:173 - Starting Servlet engine: [Apache Tomcat/9.0.24]
+[XD][ INFO] 2019-11-28 10:07:56 [main] [/]#log:173 - Initializing Spring embedded WebApplicationContext
+[XD][ INFO] 2019-11-28 10:07:56 [main] ContextLoader#prepareWebApplicationContext:284 - Root WebApplicationContext: initialization completed in 1412 ms
+[XD][ INFO] 2019-11-28 10:07:56 [main] ThreadPoolTaskExecutor#initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 10:07:56 [main] Http11NioProtocol#log:173 - Starting ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 10:07:56 [main] TomcatWebServer#start:202 - Tomcat started on port(s): 8089 (http) with context path ''
+[XD][ INFO] 2019-11-28 10:07:56 [main] SpringbatisApplication#logStarted:59 - Started SpringbatisApplication in 3.04 seconds (JVM running for 3.761)
+[XD][ INFO] 2019-11-28 10:08:17 [http-nio-8089-exec-1] [/]#log:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[XD][ INFO] 2019-11-28 10:08:17 [http-nio-8089-exec-1] DispatcherServlet#initServletBean:524 - Initializing Servlet 'dispatcherServlet'
+[XD][ INFO] 2019-11-28 10:08:17 [http-nio-8089-exec-1] DispatcherServlet#initServletBean:546 - Completed initialization in 6 ms
+[XD][ INFO] 2019-11-28 10:08:17 [http-nio-8089-exec-1] DruidDataSource#init:667 - {dataSource-1} inited
