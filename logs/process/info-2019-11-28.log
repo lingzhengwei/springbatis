@@ -84,3 +84,333 @@
 [XD][ INFO] 2019-11-28 10:08:17 [http-nio-8089-exec-1] [/]#log:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
 [XD][ INFO] 2019-11-28 10:08:17 [http-nio-8089-exec-1] DispatcherServlet#initServletBean:524 - Initializing Servlet 'dispatcherServlet'
 [XD][ INFO] 2019-11-28 10:08:17 [http-nio-8089-exec-1] DispatcherServlet#initServletBean:546 - Completed initialization in 6 ms
+[XD][ INFO] 2019-11-28 10:54:16 [restartedMain] DevToolsPropertyDefaultsPostProcessor#logTo:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[XD][ INFO] 2019-11-28 10:54:16 [restartedMain] DevToolsPropertyDefaultsPostProcessor#logTo:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[XD][ INFO] 2019-11-28 10:54:18 [restartedMain] TomcatWebServer#initialize:90 - Tomcat initialized with port(s): 8089 (http)
+[XD][ INFO] 2019-11-28 10:54:18 [restartedMain] Http11NioProtocol#log:173 - Initializing ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 10:54:18 [restartedMain] StandardService#log:173 - Starting service [Tomcat]
+[XD][ INFO] 2019-11-28 10:54:18 [restartedMain] StandardEngine#log:173 - Starting Servlet engine: [Apache Tomcat/9.0.24]
+[XD][ INFO] 2019-11-28 10:54:18 [restartedMain] [/]#log:173 - Initializing Spring embedded WebApplicationContext
+[XD][ INFO] 2019-11-28 10:54:18 [restartedMain] ContextLoader#prepareWebApplicationContext:284 - Root WebApplicationContext: initialization completed in 1957 ms
+[XD][ INFO] 2019-11-28 10:54:19 [restartedMain] ThreadPoolTaskExecutor#initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 10:54:19 [restartedMain] WelcomePageHandlerMapping#<init>:58 - Adding welcome page template: index
+[XD][ WARN] 2019-11-28 10:54:19 [restartedMain] TemplateMode#parse:150 - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+[XD][ INFO] 2019-11-28 10:54:19 [restartedMain] OptionalLiveReloadServer#startServer:57 - LiveReload server is running on port 35729
+[XD][ INFO] 2019-11-28 10:54:19 [restartedMain] Http11NioProtocol#log:173 - Starting ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 10:54:19 [restartedMain] TomcatWebServer#start:202 - Tomcat started on port(s): 8089 (http) with context path ''
+[XD][ INFO] 2019-11-28 10:54:57 [http-nio-8089-exec-1] [/]#log:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[XD][ INFO] 2019-11-28 10:54:57 [http-nio-8089-exec-1] DispatcherServlet#initServletBean:524 - Initializing Servlet 'dispatcherServlet'
+[XD][ INFO] 2019-11-28 10:54:57 [http-nio-8089-exec-1] DispatcherServlet#initServletBean:546 - Completed initialization in 8 ms
+[XD][ INFO] 2019-11-28 10:58:05 [Thread-11] ThreadPoolTaskExecutor#shutdown:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+[XD][ERROR] 2019-11-28 10:58:06 [restartedMain] SpringApplication#reportFailure:823 - Application run failed
+java.lang.IllegalStateException: Failed to load property source from location 'classpath:/application.yml'
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:525)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.loadForFileExtension(ConfigFileApplicationListener.java:474)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:444)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.lambda$null$6(ConfigFileApplicationListener.java:426)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.lambda$load$7(ConfigFileApplicationListener.java:426)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:423)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:322)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.addPropertySources(ConfigFileApplicationListener.java:203)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.postProcessEnvironment(ConfigFileApplicationListener.java:187)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.onApplicationEnvironmentPreparedEvent(ConfigFileApplicationListener.java:177)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.onApplicationEvent(ConfigFileApplicationListener.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:76)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:342)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:305)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.ext.springbatis.SpringbatisApplication.main(SpringbatisApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'reader', line 5, column 5:
+        name: test
+        ^
+expected <block end>, but found '<block mapping start>'
+ in 'reader', line 26, column 7:
+          devtools:
+          ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:572)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:214)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:85)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getData(BaseConstructor.java:123)
+	at org.yaml.snakeyaml.Yaml$1.next(Yaml.java:547)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:160)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:134)
+	at org.springframework.boot.env.OriginTrackedYamlLoader.load(OriginTrackedYamlLoader.java:75)
+	at org.springframework.boot.env.YamlPropertySourceLoader.load(YamlPropertySourceLoader.java:50)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.loadDocuments(ConfigFileApplicationListener.java:543)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:498)
+	... 28 common frames omitted
+[XD][ INFO] 2019-11-28 10:58:17 [restartedMain] TomcatWebServer#initialize:90 - Tomcat initialized with port(s): 8089 (http)
+[XD][ INFO] 2019-11-28 10:58:17 [restartedMain] Http11NioProtocol#log:173 - Initializing ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 10:58:17 [restartedMain] StandardService#log:173 - Starting service [Tomcat]
+[XD][ INFO] 2019-11-28 10:58:17 [restartedMain] StandardEngine#log:173 - Starting Servlet engine: [Apache Tomcat/9.0.24]
+[XD][ INFO] 2019-11-28 10:58:17 [restartedMain] [/]#log:173 - Initializing Spring embedded WebApplicationContext
+[XD][ INFO] 2019-11-28 10:58:17 [restartedMain] ContextLoader#prepareWebApplicationContext:284 - Root WebApplicationContext: initialization completed in 874 ms
+[XD][ INFO] 2019-11-28 10:58:18 [restartedMain] ThreadPoolTaskExecutor#initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 10:58:18 [restartedMain] WelcomePageHandlerMapping#<init>:58 - Adding welcome page template: index
+[XD][ WARN] 2019-11-28 10:58:18 [restartedMain] TemplateMode#parse:150 - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+[XD][ INFO] 2019-11-28 10:58:18 [restartedMain] OptionalLiveReloadServer#startServer:57 - LiveReload server is running on port 35729
+[XD][ INFO] 2019-11-28 10:58:18 [restartedMain] Http11NioProtocol#log:173 - Starting ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 10:58:18 [restartedMain] TomcatWebServer#start:202 - Tomcat started on port(s): 8089 (http) with context path ''
+[XD][ INFO] 2019-11-28 10:58:18 [restartedMain] ConditionEvaluationDeltaLoggingListener#onApplicationEvent:63 - Condition evaluation unchanged
+[XD][ INFO] 2019-11-28 10:59:43 [restartedMain] DevToolsPropertyDefaultsPostProcessor#logTo:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[XD][ INFO] 2019-11-28 10:59:43 [restartedMain] DevToolsPropertyDefaultsPostProcessor#logTo:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[XD][ INFO] 2019-11-28 10:59:46 [restartedMain] TomcatWebServer#initialize:90 - Tomcat initialized with port(s): 8089 (http)
+[XD][ INFO] 2019-11-28 10:59:46 [restartedMain] Http11NioProtocol#log:173 - Initializing ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 10:59:46 [restartedMain] StandardService#log:173 - Starting service [Tomcat]
+[XD][ INFO] 2019-11-28 10:59:46 [restartedMain] StandardEngine#log:173 - Starting Servlet engine: [Apache Tomcat/9.0.24]
+[XD][ INFO] 2019-11-28 10:59:46 [restartedMain] [/]#log:173 - Initializing Spring embedded WebApplicationContext
+[XD][ INFO] 2019-11-28 10:59:46 [restartedMain] ContextLoader#prepareWebApplicationContext:284 - Root WebApplicationContext: initialization completed in 3422 ms
+[XD][ INFO] 2019-11-28 10:59:47 [restartedMain] ThreadPoolTaskExecutor#initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 10:59:48 [restartedMain] WelcomePageHandlerMapping#<init>:58 - Adding welcome page template: index
+[XD][ WARN] 2019-11-28 10:59:48 [restartedMain] TemplateMode#parse:150 - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+[XD][ INFO] 2019-11-28 10:59:48 [restartedMain] OptionalLiveReloadServer#startServer:57 - LiveReload server is running on port 35729
+[XD][ INFO] 2019-11-28 10:59:48 [restartedMain] Http11NioProtocol#log:173 - Starting ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 10:59:48 [restartedMain] TomcatWebServer#start:202 - Tomcat started on port(s): 8089 (http) with context path ''
+[XD][ INFO] 2019-11-28 10:59:48 [http-nio-8089-exec-1] [/]#log:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[XD][ INFO] 2019-11-28 10:59:48 [http-nio-8089-exec-1] DispatcherServlet#initServletBean:524 - Initializing Servlet 'dispatcherServlet'
+[XD][ INFO] 2019-11-28 10:59:48 [http-nio-8089-exec-1] DispatcherServlet#initServletBean:546 - Completed initialization in 7 ms
+[XD][ INFO] 2019-11-28 13:28:48 [Thread-15] ThreadPoolTaskExecutor#shutdown:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 13:28:50 [restartedMain] TomcatWebServer#initialize:90 - Tomcat initialized with port(s): 8089 (http)
+[XD][ INFO] 2019-11-28 13:28:50 [restartedMain] Http11NioProtocol#log:173 - Initializing ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 13:28:50 [restartedMain] StandardService#log:173 - Starting service [Tomcat]
+[XD][ INFO] 2019-11-28 13:28:50 [restartedMain] StandardEngine#log:173 - Starting Servlet engine: [Apache Tomcat/9.0.24]
+[XD][ INFO] 2019-11-28 13:28:50 [restartedMain] [/]#log:173 - Initializing Spring embedded WebApplicationContext
+[XD][ INFO] 2019-11-28 13:28:50 [restartedMain] ContextLoader#prepareWebApplicationContext:284 - Root WebApplicationContext: initialization completed in 1230 ms
+[XD][ INFO] 2019-11-28 13:28:50 [restartedMain] ThreadPoolTaskExecutor#initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 13:28:50 [restartedMain] WelcomePageHandlerMapping#<init>:58 - Adding welcome page template: index
+[XD][ WARN] 2019-11-28 13:28:50 [restartedMain] TemplateMode#parse:150 - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+[XD][ INFO] 2019-11-28 13:28:51 [restartedMain] OptionalLiveReloadServer#startServer:57 - LiveReload server is running on port 35729
+[XD][ INFO] 2019-11-28 13:28:51 [restartedMain] Http11NioProtocol#log:173 - Starting ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 13:28:51 [restartedMain] TomcatWebServer#start:202 - Tomcat started on port(s): 8089 (http) with context path ''
+[XD][ INFO] 2019-11-28 13:28:51 [restartedMain] ConditionEvaluationDeltaLoggingListener#onApplicationEvent:63 - Condition evaluation unchanged
+[XD][ INFO] 2019-11-28 13:28:54 [Thread-23] ThreadPoolTaskExecutor#shutdown:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 13:28:57 [restartedMain] TomcatWebServer#initialize:90 - Tomcat initialized with port(s): 8089 (http)
+[XD][ INFO] 2019-11-28 13:28:57 [restartedMain] Http11NioProtocol#log:173 - Initializing ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 13:28:57 [restartedMain] StandardService#log:173 - Starting service [Tomcat]
+[XD][ INFO] 2019-11-28 13:28:57 [restartedMain] StandardEngine#log:173 - Starting Servlet engine: [Apache Tomcat/9.0.24]
+[XD][ INFO] 2019-11-28 13:28:57 [restartedMain] [/]#log:173 - Initializing Spring embedded WebApplicationContext
+[XD][ INFO] 2019-11-28 13:28:57 [restartedMain] ContextLoader#prepareWebApplicationContext:284 - Root WebApplicationContext: initialization completed in 774 ms
+[XD][ INFO] 2019-11-28 13:28:57 [restartedMain] ThreadPoolTaskExecutor#initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 13:28:57 [restartedMain] WelcomePageHandlerMapping#<init>:58 - Adding welcome page template: index
+[XD][ WARN] 2019-11-28 13:28:57 [restartedMain] TemplateMode#parse:150 - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+[XD][ INFO] 2019-11-28 13:28:57 [restartedMain] OptionalLiveReloadServer#startServer:57 - LiveReload server is running on port 35729
+[XD][ INFO] 2019-11-28 13:28:57 [restartedMain] Http11NioProtocol#log:173 - Starting ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 13:28:57 [restartedMain] TomcatWebServer#start:202 - Tomcat started on port(s): 8089 (http) with context path ''
+[XD][ INFO] 2019-11-28 13:28:57 [restartedMain] ConditionEvaluationDeltaLoggingListener#onApplicationEvent:63 - Condition evaluation unchanged
+[XD][ INFO] 2019-11-28 13:29:00 [Thread-29] ThreadPoolTaskExecutor#shutdown:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 13:29:02 [restartedMain] TomcatWebServer#initialize:90 - Tomcat initialized with port(s): 8089 (http)
+[XD][ INFO] 2019-11-28 13:29:02 [restartedMain] Http11NioProtocol#log:173 - Initializing ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 13:29:02 [restartedMain] StandardService#log:173 - Starting service [Tomcat]
+[XD][ INFO] 2019-11-28 13:29:02 [restartedMain] StandardEngine#log:173 - Starting Servlet engine: [Apache Tomcat/9.0.24]
+[XD][ INFO] 2019-11-28 13:29:02 [restartedMain] [/]#log:173 - Initializing Spring embedded WebApplicationContext
+[XD][ INFO] 2019-11-28 13:29:02 [restartedMain] ContextLoader#prepareWebApplicationContext:284 - Root WebApplicationContext: initialization completed in 663 ms
+[XD][ INFO] 2019-11-28 13:29:02 [restartedMain] ThreadPoolTaskExecutor#initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 13:29:02 [restartedMain] WelcomePageHandlerMapping#<init>:58 - Adding welcome page template: index
+[XD][ WARN] 2019-11-28 13:29:02 [restartedMain] TemplateMode#parse:150 - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+[XD][ INFO] 2019-11-28 13:29:02 [restartedMain] OptionalLiveReloadServer#startServer:57 - LiveReload server is running on port 35729
+[XD][ INFO] 2019-11-28 13:29:02 [restartedMain] Http11NioProtocol#log:173 - Starting ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 13:29:02 [restartedMain] TomcatWebServer#start:202 - Tomcat started on port(s): 8089 (http) with context path ''
+[XD][ INFO] 2019-11-28 13:29:02 [restartedMain] ConditionEvaluationDeltaLoggingListener#onApplicationEvent:63 - Condition evaluation unchanged
+[XD][ INFO] 2019-11-28 13:29:08 [Thread-35] ThreadPoolTaskExecutor#shutdown:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 13:29:09 [restartedMain] TomcatWebServer#initialize:90 - Tomcat initialized with port(s): 8089 (http)
+[XD][ INFO] 2019-11-28 13:29:09 [restartedMain] Http11NioProtocol#log:173 - Initializing ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 13:29:09 [restartedMain] StandardService#log:173 - Starting service [Tomcat]
+[XD][ INFO] 2019-11-28 13:29:09 [restartedMain] StandardEngine#log:173 - Starting Servlet engine: [Apache Tomcat/9.0.24]
+[XD][ INFO] 2019-11-28 13:29:09 [restartedMain] [/]#log:173 - Initializing Spring embedded WebApplicationContext
+[XD][ INFO] 2019-11-28 13:29:09 [restartedMain] ContextLoader#prepareWebApplicationContext:284 - Root WebApplicationContext: initialization completed in 771 ms
+[XD][ INFO] 2019-11-28 13:29:10 [restartedMain] ThreadPoolTaskExecutor#initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 13:29:10 [restartedMain] WelcomePageHandlerMapping#<init>:58 - Adding welcome page template: index
+[XD][ WARN] 2019-11-28 13:29:10 [restartedMain] TemplateMode#parse:150 - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+[XD][ INFO] 2019-11-28 13:29:10 [restartedMain] OptionalLiveReloadServer#startServer:57 - LiveReload server is running on port 35729
+[XD][ INFO] 2019-11-28 13:29:10 [restartedMain] Http11NioProtocol#log:173 - Starting ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 13:29:10 [restartedMain] TomcatWebServer#start:202 - Tomcat started on port(s): 8089 (http) with context path ''
+[XD][ INFO] 2019-11-28 13:29:10 [restartedMain] ConditionEvaluationDeltaLoggingListener#onApplicationEvent:63 - Condition evaluation unchanged
+[XD][ INFO] 2019-11-28 13:29:19 [Thread-41] ThreadPoolTaskExecutor#shutdown:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 13:29:21 [restartedMain] TomcatWebServer#initialize:90 - Tomcat initialized with port(s): 8089 (http)
+[XD][ INFO] 2019-11-28 13:29:21 [restartedMain] Http11NioProtocol#log:173 - Initializing ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 13:29:21 [restartedMain] StandardService#log:173 - Starting service [Tomcat]
+[XD][ INFO] 2019-11-28 13:29:21 [restartedMain] StandardEngine#log:173 - Starting Servlet engine: [Apache Tomcat/9.0.24]
+[XD][ INFO] 2019-11-28 13:29:21 [restartedMain] [/]#log:173 - Initializing Spring embedded WebApplicationContext
+[XD][ INFO] 2019-11-28 13:29:21 [restartedMain] ContextLoader#prepareWebApplicationContext:284 - Root WebApplicationContext: initialization completed in 555 ms
+[XD][ INFO] 2019-11-28 13:29:21 [restartedMain] ThreadPoolTaskExecutor#initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 13:29:21 [restartedMain] WelcomePageHandlerMapping#<init>:58 - Adding welcome page template: index
+[XD][ WARN] 2019-11-28 13:29:21 [restartedMain] TemplateMode#parse:150 - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+[XD][ INFO] 2019-11-28 13:29:21 [restartedMain] OptionalLiveReloadServer#startServer:57 - LiveReload server is running on port 35729
+[XD][ INFO] 2019-11-28 13:29:21 [restartedMain] Http11NioProtocol#log:173 - Starting ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 13:29:21 [restartedMain] TomcatWebServer#start:202 - Tomcat started on port(s): 8089 (http) with context path ''
+[XD][ INFO] 2019-11-28 13:29:21 [restartedMain] ConditionEvaluationDeltaLoggingListener#onApplicationEvent:63 - Condition evaluation unchanged
+[XD][ INFO] 2019-11-28 13:29:28 [Thread-47] ThreadPoolTaskExecutor#shutdown:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 13:29:28 [restartedMain] TomcatWebServer#initialize:90 - Tomcat initialized with port(s): 8089 (http)
+[XD][ INFO] 2019-11-28 13:29:28 [restartedMain] Http11NioProtocol#log:173 - Initializing ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 13:29:28 [restartedMain] StandardService#log:173 - Starting service [Tomcat]
+[XD][ INFO] 2019-11-28 13:29:28 [restartedMain] StandardEngine#log:173 - Starting Servlet engine: [Apache Tomcat/9.0.24]
+[XD][ INFO] 2019-11-28 13:29:28 [restartedMain] [/]#log:173 - Initializing Spring embedded WebApplicationContext
+[XD][ INFO] 2019-11-28 13:29:28 [restartedMain] ContextLoader#prepareWebApplicationContext:284 - Root WebApplicationContext: initialization completed in 610 ms
+[XD][ INFO] 2019-11-28 13:29:29 [restartedMain] ThreadPoolTaskExecutor#initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 13:29:29 [restartedMain] WelcomePageHandlerMapping#<init>:58 - Adding welcome page template: index
+[XD][ WARN] 2019-11-28 13:29:29 [restartedMain] TemplateMode#parse:150 - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+[XD][ INFO] 2019-11-28 13:29:29 [restartedMain] OptionalLiveReloadServer#startServer:57 - LiveReload server is running on port 35729
+[XD][ INFO] 2019-11-28 13:29:29 [restartedMain] Http11NioProtocol#log:173 - Starting ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 13:29:29 [restartedMain] TomcatWebServer#start:202 - Tomcat started on port(s): 8089 (http) with context path ''
+[XD][ INFO] 2019-11-28 13:29:29 [restartedMain] ConditionEvaluationDeltaLoggingListener#onApplicationEvent:63 - Condition evaluation unchanged
+[XD][ INFO] 2019-11-28 13:29:34 [Thread-53] ThreadPoolTaskExecutor#shutdown:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 13:29:36 [restartedMain] TomcatWebServer#initialize:90 - Tomcat initialized with port(s): 8089 (http)
+[XD][ INFO] 2019-11-28 13:29:36 [restartedMain] Http11NioProtocol#log:173 - Initializing ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 13:29:36 [restartedMain] StandardService#log:173 - Starting service [Tomcat]
+[XD][ INFO] 2019-11-28 13:29:36 [restartedMain] StandardEngine#log:173 - Starting Servlet engine: [Apache Tomcat/9.0.24]
+[XD][ INFO] 2019-11-28 13:29:36 [restartedMain] [/]#log:173 - Initializing Spring embedded WebApplicationContext
+[XD][ INFO] 2019-11-28 13:29:36 [restartedMain] ContextLoader#prepareWebApplicationContext:284 - Root WebApplicationContext: initialization completed in 852 ms
+[XD][ INFO] 2019-11-28 13:29:36 [restartedMain] ThreadPoolTaskExecutor#initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 13:29:36 [restartedMain] WelcomePageHandlerMapping#<init>:58 - Adding welcome page template: index
+[XD][ WARN] 2019-11-28 13:29:36 [restartedMain] TemplateMode#parse:150 - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+[XD][ INFO] 2019-11-28 13:29:36 [restartedMain] OptionalLiveReloadServer#startServer:57 - LiveReload server is running on port 35729
+[XD][ INFO] 2019-11-28 13:29:36 [restartedMain] Http11NioProtocol#log:173 - Starting ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 13:29:36 [restartedMain] TomcatWebServer#start:202 - Tomcat started on port(s): 8089 (http) with context path ''
+[XD][ INFO] 2019-11-28 13:29:36 [restartedMain] ConditionEvaluationDeltaLoggingListener#onApplicationEvent:63 - Condition evaluation unchanged
+[XD][ INFO] 2019-11-28 13:30:08 [Thread-59] ThreadPoolTaskExecutor#shutdown:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 13:30:10 [restartedMain] TomcatWebServer#initialize:90 - Tomcat initialized with port(s): 8089 (http)
+[XD][ INFO] 2019-11-28 13:30:10 [restartedMain] Http11NioProtocol#log:173 - Initializing ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 13:30:10 [restartedMain] StandardService#log:173 - Starting service [Tomcat]
+[XD][ INFO] 2019-11-28 13:30:10 [restartedMain] StandardEngine#log:173 - Starting Servlet engine: [Apache Tomcat/9.0.24]
+[XD][ INFO] 2019-11-28 13:30:10 [restartedMain] [/]#log:173 - Initializing Spring embedded WebApplicationContext
+[XD][ INFO] 2019-11-28 13:30:10 [restartedMain] ContextLoader#prepareWebApplicationContext:284 - Root WebApplicationContext: initialization completed in 1040 ms
+[XD][ INFO] 2019-11-28 13:30:10 [restartedMain] ThreadPoolTaskExecutor#initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 13:30:10 [restartedMain] WelcomePageHandlerMapping#<init>:58 - Adding welcome page template: index
+[XD][ WARN] 2019-11-28 13:30:10 [restartedMain] TemplateMode#parse:150 - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+[XD][ INFO] 2019-11-28 13:30:10 [restartedMain] OptionalLiveReloadServer#startServer:57 - LiveReload server is running on port 35729
+[XD][ INFO] 2019-11-28 13:30:10 [restartedMain] Http11NioProtocol#log:173 - Starting ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 13:30:10 [restartedMain] TomcatWebServer#start:202 - Tomcat started on port(s): 8089 (http) with context path ''
+[XD][ INFO] 2019-11-28 13:30:10 [restartedMain] ConditionEvaluationDeltaLoggingListener#onApplicationEvent:63 - Condition evaluation unchanged
+[XD][ INFO] 2019-11-28 13:30:17 [restartedMain] DevToolsPropertyDefaultsPostProcessor#logTo:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[XD][ INFO] 2019-11-28 13:30:17 [restartedMain] DevToolsPropertyDefaultsPostProcessor#logTo:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[XD][ INFO] 2019-11-28 13:30:19 [restartedMain] TomcatWebServer#initialize:90 - Tomcat initialized with port(s): 8089 (http)
+[XD][ INFO] 2019-11-28 13:30:19 [restartedMain] Http11NioProtocol#log:173 - Initializing ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 13:30:19 [restartedMain] StandardService#log:173 - Starting service [Tomcat]
+[XD][ INFO] 2019-11-28 13:30:19 [restartedMain] StandardEngine#log:173 - Starting Servlet engine: [Apache Tomcat/9.0.24]
+[XD][ INFO] 2019-11-28 13:30:19 [restartedMain] [/]#log:173 - Initializing Spring embedded WebApplicationContext
+[XD][ INFO] 2019-11-28 13:30:19 [restartedMain] ContextLoader#prepareWebApplicationContext:284 - Root WebApplicationContext: initialization completed in 2720 ms
+[XD][ INFO] 2019-11-28 13:30:20 [restartedMain] ThreadPoolTaskExecutor#initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 13:30:20 [restartedMain] WelcomePageHandlerMapping#<init>:58 - Adding welcome page template: index
+[XD][ WARN] 2019-11-28 13:30:20 [restartedMain] TemplateMode#parse:150 - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+[XD][ INFO] 2019-11-28 13:30:20 [restartedMain] OptionalLiveReloadServer#startServer:57 - LiveReload server is running on port 35729
+[XD][ INFO] 2019-11-28 13:30:20 [restartedMain] Http11NioProtocol#log:173 - Starting ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 13:30:20 [restartedMain] TomcatWebServer#start:202 - Tomcat started on port(s): 8089 (http) with context path ''
+[XD][ INFO] 2019-11-28 13:30:59 [http-nio-8089-exec-2] [/]#log:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[XD][ INFO] 2019-11-28 13:30:59 [http-nio-8089-exec-2] DispatcherServlet#initServletBean:524 - Initializing Servlet 'dispatcherServlet'
+[XD][ INFO] 2019-11-28 13:30:59 [http-nio-8089-exec-2] DispatcherServlet#initServletBean:546 - Completed initialization in 8 ms
+[XD][ INFO] 2019-11-28 13:31:46 [Thread-12] ThreadPoolTaskExecutor#shutdown:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 13:31:47 [restartedMain] TomcatWebServer#initialize:90 - Tomcat initialized with port(s): 8089 (http)
+[XD][ INFO] 2019-11-28 13:31:47 [restartedMain] Http11NioProtocol#log:173 - Initializing ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 13:31:47 [restartedMain] StandardService#log:173 - Starting service [Tomcat]
+[XD][ INFO] 2019-11-28 13:31:47 [restartedMain] StandardEngine#log:173 - Starting Servlet engine: [Apache Tomcat/9.0.24]
+[XD][ INFO] 2019-11-28 13:31:47 [restartedMain] [/]#log:173 - Initializing Spring embedded WebApplicationContext
+[XD][ INFO] 2019-11-28 13:31:47 [restartedMain] ContextLoader#prepareWebApplicationContext:284 - Root WebApplicationContext: initialization completed in 766 ms
+[XD][ INFO] 2019-11-28 13:31:48 [restartedMain] ThreadPoolTaskExecutor#initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 13:31:48 [restartedMain] WelcomePageHandlerMapping#<init>:58 - Adding welcome page template: index
+[XD][ WARN] 2019-11-28 13:31:48 [restartedMain] TemplateMode#parse:150 - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+[XD][ INFO] 2019-11-28 13:31:48 [restartedMain] OptionalLiveReloadServer#startServer:57 - LiveReload server is running on port 35729
+[XD][ INFO] 2019-11-28 13:31:48 [restartedMain] Http11NioProtocol#log:173 - Starting ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 13:31:48 [restartedMain] TomcatWebServer#start:202 - Tomcat started on port(s): 8089 (http) with context path ''
+[XD][ INFO] 2019-11-28 13:31:48 [restartedMain] ConditionEvaluationDeltaLoggingListener#onApplicationEvent:63 - Condition evaluation unchanged
+[XD][ INFO] 2019-11-28 13:31:57 [http-nio-8089-exec-1] [/]#log:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[XD][ INFO] 2019-11-28 13:31:57 [http-nio-8089-exec-1] DispatcherServlet#initServletBean:524 - Initializing Servlet 'dispatcherServlet'
+[XD][ INFO] 2019-11-28 13:31:57 [http-nio-8089-exec-1] DispatcherServlet#initServletBean:546 - Completed initialization in 3 ms
+[XD][ INFO] 2019-11-28 13:32:22 [Thread-21] ThreadPoolTaskExecutor#shutdown:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 13:32:24 [restartedMain] TomcatWebServer#initialize:90 - Tomcat initialized with port(s): 8089 (http)
+[XD][ INFO] 2019-11-28 13:32:24 [restartedMain] Http11NioProtocol#log:173 - Initializing ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 13:32:24 [restartedMain] StandardService#log:173 - Starting service [Tomcat]
+[XD][ INFO] 2019-11-28 13:32:24 [restartedMain] StandardEngine#log:173 - Starting Servlet engine: [Apache Tomcat/9.0.24]
+[XD][ INFO] 2019-11-28 13:32:24 [restartedMain] [/]#log:173 - Initializing Spring embedded WebApplicationContext
+[XD][ INFO] 2019-11-28 13:32:24 [restartedMain] ContextLoader#prepareWebApplicationContext:284 - Root WebApplicationContext: initialization completed in 630 ms
+[XD][ INFO] 2019-11-28 13:32:24 [restartedMain] ThreadPoolTaskExecutor#initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 13:32:24 [restartedMain] WelcomePageHandlerMapping#<init>:58 - Adding welcome page template: index
+[XD][ WARN] 2019-11-28 13:32:24 [restartedMain] TemplateMode#parse:150 - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+[XD][ INFO] 2019-11-28 13:32:24 [restartedMain] OptionalLiveReloadServer#startServer:57 - LiveReload server is running on port 35729
+[XD][ INFO] 2019-11-28 13:32:24 [restartedMain] Http11NioProtocol#log:173 - Starting ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 13:32:24 [restartedMain] TomcatWebServer#start:202 - Tomcat started on port(s): 8089 (http) with context path ''
+[XD][ INFO] 2019-11-28 13:32:24 [restartedMain] ConditionEvaluationDeltaLoggingListener#onApplicationEvent:63 - Condition evaluation unchanged
+[XD][ INFO] 2019-11-28 13:35:10 [Thread-27] ThreadPoolTaskExecutor#shutdown:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 13:35:10 [restartedMain] TomcatWebServer#initialize:90 - Tomcat initialized with port(s): 8089 (http)
+[XD][ INFO] 2019-11-28 13:35:11 [restartedMain] Http11NioProtocol#log:173 - Initializing ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 13:35:11 [restartedMain] StandardService#log:173 - Starting service [Tomcat]
+[XD][ INFO] 2019-11-28 13:35:11 [restartedMain] StandardEngine#log:173 - Starting Servlet engine: [Apache Tomcat/9.0.24]
+[XD][ INFO] 2019-11-28 13:35:11 [restartedMain] [/]#log:173 - Initializing Spring embedded WebApplicationContext
+[XD][ INFO] 2019-11-28 13:35:11 [restartedMain] ContextLoader#prepareWebApplicationContext:284 - Root WebApplicationContext: initialization completed in 409 ms
+[XD][ INFO] 2019-11-28 13:35:11 [restartedMain] ThreadPoolTaskExecutor#initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 13:35:11 [restartedMain] WelcomePageHandlerMapping#<init>:58 - Adding welcome page template: index
+[XD][ WARN] 2019-11-28 13:35:11 [restartedMain] TemplateMode#parse:150 - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+[XD][ INFO] 2019-11-28 13:35:11 [restartedMain] OptionalLiveReloadServer#startServer:57 - LiveReload server is running on port 35729
+[XD][ INFO] 2019-11-28 13:35:11 [restartedMain] Http11NioProtocol#log:173 - Starting ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 13:35:11 [restartedMain] TomcatWebServer#start:202 - Tomcat started on port(s): 8089 (http) with context path ''
+[XD][ INFO] 2019-11-28 13:35:11 [restartedMain] ConditionEvaluationDeltaLoggingListener#onApplicationEvent:63 - Condition evaluation unchanged
+[XD][ INFO] 2019-11-28 13:35:15 [Thread-33] ThreadPoolTaskExecutor#shutdown:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 13:35:16 [restartedMain] TomcatWebServer#initialize:90 - Tomcat initialized with port(s): 8089 (http)
+[XD][ INFO] 2019-11-28 13:35:16 [restartedMain] Http11NioProtocol#log:173 - Initializing ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 13:35:16 [restartedMain] StandardService#log:173 - Starting service [Tomcat]
+[XD][ INFO] 2019-11-28 13:35:16 [restartedMain] StandardEngine#log:173 - Starting Servlet engine: [Apache Tomcat/9.0.24]
+[XD][ INFO] 2019-11-28 13:35:16 [restartedMain] [/]#log:173 - Initializing Spring embedded WebApplicationContext
+[XD][ INFO] 2019-11-28 13:35:16 [restartedMain] ContextLoader#prepareWebApplicationContext:284 - Root WebApplicationContext: initialization completed in 508 ms
+[XD][ INFO] 2019-11-28 13:35:17 [restartedMain] ThreadPoolTaskExecutor#initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 13:35:17 [restartedMain] WelcomePageHandlerMapping#<init>:58 - Adding welcome page template: index
+[XD][ WARN] 2019-11-28 13:35:17 [restartedMain] TemplateMode#parse:150 - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+[XD][ INFO] 2019-11-28 13:35:17 [restartedMain] OptionalLiveReloadServer#startServer:57 - LiveReload server is running on port 35729
+[XD][ INFO] 2019-11-28 13:35:17 [restartedMain] Http11NioProtocol#log:173 - Starting ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 13:35:17 [restartedMain] TomcatWebServer#start:202 - Tomcat started on port(s): 8089 (http) with context path ''
+[XD][ INFO] 2019-11-28 13:35:17 [restartedMain] ConditionEvaluationDeltaLoggingListener#onApplicationEvent:63 - Condition evaluation unchanged
+[XD][ INFO] 2019-11-28 13:35:17 [http-nio-8089-exec-2] [/]#log:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[XD][ INFO] 2019-11-28 13:35:17 [http-nio-8089-exec-2] DispatcherServlet#initServletBean:524 - Initializing Servlet 'dispatcherServlet'
+[XD][ INFO] 2019-11-28 13:35:17 [http-nio-8089-exec-2] DispatcherServlet#initServletBean:546 - Completed initialization in 3 ms
+[XD][ INFO] 2019-11-28 13:35:49 [Thread-39] ThreadPoolTaskExecutor#shutdown:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 13:35:49 [restartedMain] TomcatWebServer#initialize:90 - Tomcat initialized with port(s): 8089 (http)
+[XD][ INFO] 2019-11-28 13:35:49 [restartedMain] Http11NioProtocol#log:173 - Initializing ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 13:35:49 [restartedMain] StandardService#log:173 - Starting service [Tomcat]
+[XD][ INFO] 2019-11-28 13:35:49 [restartedMain] StandardEngine#log:173 - Starting Servlet engine: [Apache Tomcat/9.0.24]
+[XD][ INFO] 2019-11-28 13:35:49 [restartedMain] [/]#log:173 - Initializing Spring embedded WebApplicationContext
+[XD][ INFO] 2019-11-28 13:35:49 [restartedMain] ContextLoader#prepareWebApplicationContext:284 - Root WebApplicationContext: initialization completed in 432 ms
+[XD][ INFO] 2019-11-28 13:35:50 [restartedMain] ThreadPoolTaskExecutor#initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 13:35:50 [restartedMain] WelcomePageHandlerMapping#<init>:58 - Adding welcome page template: index
+[XD][ WARN] 2019-11-28 13:35:50 [restartedMain] TemplateMode#parse:150 - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+[XD][ INFO] 2019-11-28 13:35:50 [restartedMain] OptionalLiveReloadServer#startServer:57 - LiveReload server is running on port 35729
+[XD][ INFO] 2019-11-28 13:35:50 [restartedMain] Http11NioProtocol#log:173 - Starting ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 13:35:50 [restartedMain] TomcatWebServer#start:202 - Tomcat started on port(s): 8089 (http) with context path ''
+[XD][ INFO] 2019-11-28 13:35:50 [restartedMain] ConditionEvaluationDeltaLoggingListener#onApplicationEvent:63 - Condition evaluation unchanged
+[XD][ INFO] 2019-11-28 13:35:57 [Thread-45] ThreadPoolTaskExecutor#shutdown:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 13:35:59 [restartedMain] TomcatWebServer#initialize:90 - Tomcat initialized with port(s): 8089 (http)
+[XD][ INFO] 2019-11-28 13:35:59 [restartedMain] Http11NioProtocol#log:173 - Initializing ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 13:35:59 [restartedMain] StandardService#log:173 - Starting service [Tomcat]
+[XD][ INFO] 2019-11-28 13:35:59 [restartedMain] StandardEngine#log:173 - Starting Servlet engine: [Apache Tomcat/9.0.24]
+[XD][ INFO] 2019-11-28 13:35:59 [restartedMain] [/]#log:173 - Initializing Spring embedded WebApplicationContext
+[XD][ INFO] 2019-11-28 13:35:59 [restartedMain] ContextLoader#prepareWebApplicationContext:284 - Root WebApplicationContext: initialization completed in 572 ms
+[XD][ INFO] 2019-11-28 13:35:59 [restartedMain] ThreadPoolTaskExecutor#initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 13:35:59 [restartedMain] WelcomePageHandlerMapping#<init>:58 - Adding welcome page template: index
+[XD][ WARN] 2019-11-28 13:35:59 [restartedMain] TemplateMode#parse:150 - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+[XD][ INFO] 2019-11-28 13:35:59 [restartedMain] OptionalLiveReloadServer#startServer:57 - LiveReload server is running on port 35729
+[XD][ INFO] 2019-11-28 13:35:59 [restartedMain] Http11NioProtocol#log:173 - Starting ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 13:35:59 [restartedMain] TomcatWebServer#start:202 - Tomcat started on port(s): 8089 (http) with context path ''
+[XD][ INFO] 2019-11-28 13:35:59 [restartedMain] ConditionEvaluationDeltaLoggingListener#onApplicationEvent:63 - Condition evaluation unchanged
