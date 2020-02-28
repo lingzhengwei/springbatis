@@ -412,3 +412,111 @@
 [XD][ INFO] 2019-11-28 13:35:59 [restartedMain] TomcatWebServer#start:202 - Tomcat started on port(s): 8089 (http) with context path ''
 [XD][ INFO] 2019-11-28 13:35:59 [restartedMain] SpringbatisApplication#logStarted:59 - Started SpringbatisApplication in 0.859 seconds (JVM running for 343.931)
 [XD][ INFO] 2019-11-28 13:35:59 [restartedMain] ConditionEvaluationDeltaLoggingListener#onApplicationEvent:63 - Condition evaluation unchanged
+[XD][ INFO] 2019-11-28 14:27:29 [restartedMain] SpringbatisApplication#logStarting:50 - Starting SpringbatisApplication on ITP0020 with PID 67712 (D:\00-installtools\ideaWorkspace\springbatis\target\classes started by 002832 in D:\00-installtools\ideaWorkspace\springbatis)
+[XD][ INFO] 2019-11-28 14:27:29 [restartedMain] SpringbatisApplication#logStartupProfileInfo:648 - No active profile set, falling back to default profiles: default
+[XD][ INFO] 2019-11-28 14:27:29 [restartedMain] DevToolsPropertyDefaultsPostProcessor#logTo:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[XD][ INFO] 2019-11-28 14:27:29 [restartedMain] DevToolsPropertyDefaultsPostProcessor#logTo:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[XD][ INFO] 2019-11-28 14:27:31 [restartedMain] TomcatWebServer#initialize:90 - Tomcat initialized with port(s): 8089 (http)
+[XD][ INFO] 2019-11-28 14:27:31 [restartedMain] Http11NioProtocol#log:173 - Initializing ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 14:27:31 [restartedMain] StandardService#log:173 - Starting service [Tomcat]
+[XD][ INFO] 2019-11-28 14:27:31 [restartedMain] StandardEngine#log:173 - Starting Servlet engine: [Apache Tomcat/9.0.24]
+[XD][ INFO] 2019-11-28 14:27:31 [restartedMain] [/]#log:173 - Initializing Spring embedded WebApplicationContext
+[XD][ INFO] 2019-11-28 14:27:31 [restartedMain] ContextLoader#prepareWebApplicationContext:284 - Root WebApplicationContext: initialization completed in 1734 ms
+[XD][ INFO] 2019-11-28 14:27:32 [restartedMain] ThreadPoolTaskExecutor#initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 14:27:32 [restartedMain] WelcomePageHandlerMapping#<init>:58 - Adding welcome page template: index
+[XD][ INFO] 2019-11-28 14:27:32 [restartedMain] OptionalLiveReloadServer#startServer:57 - LiveReload server is running on port 35729
+[XD][ INFO] 2019-11-28 14:27:32 [restartedMain] Http11NioProtocol#log:173 - Starting ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 14:27:32 [restartedMain] TomcatWebServer#start:202 - Tomcat started on port(s): 8089 (http) with context path ''
+[XD][ INFO] 2019-11-28 14:27:32 [restartedMain] SpringbatisApplication#logStarted:59 - Started SpringbatisApplication in 3.778 seconds (JVM running for 5.163)
+[XD][ INFO] 2019-11-28 14:30:06 [http-nio-8089-exec-3] [/]#log:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[XD][ INFO] 2019-11-28 14:30:06 [http-nio-8089-exec-3] DispatcherServlet#initServletBean:524 - Initializing Servlet 'dispatcherServlet'
+[XD][ INFO] 2019-11-28 14:30:06 [http-nio-8089-exec-3] DispatcherServlet#initServletBean:546 - Completed initialization in 8 ms
+[XD][ INFO] 2019-11-28 15:22:38 [restartedMain] SpringbatisApplication#logStarting:50 - Starting SpringbatisApplication on ITP0020 with PID 43864 (D:\00-installtools\ideaWorkspace\springbatis\target\classes started by 002832 in D:\00-installtools\ideaWorkspace\springbatis)
+[XD][ INFO] 2019-11-28 15:22:38 [restartedMain] SpringbatisApplication#logStartupProfileInfo:648 - No active profile set, falling back to default profiles: default
+[XD][ INFO] 2019-11-28 15:22:38 [restartedMain] DevToolsPropertyDefaultsPostProcessor#logTo:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[XD][ INFO] 2019-11-28 15:22:38 [restartedMain] DevToolsPropertyDefaultsPostProcessor#logTo:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[XD][ INFO] 2019-11-28 15:22:40 [restartedMain] TomcatWebServer#initialize:90 - Tomcat initialized with port(s): 8089 (http)
+[XD][ INFO] 2019-11-28 15:22:40 [restartedMain] Http11NioProtocol#log:173 - Initializing ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 15:22:40 [restartedMain] StandardService#log:173 - Starting service [Tomcat]
+[XD][ INFO] 2019-11-28 15:22:40 [restartedMain] StandardEngine#log:173 - Starting Servlet engine: [Apache Tomcat/9.0.24]
+[XD][ INFO] 2019-11-28 15:22:40 [restartedMain] [/]#log:173 - Initializing Spring embedded WebApplicationContext
+[XD][ INFO] 2019-11-28 15:22:40 [restartedMain] ContextLoader#prepareWebApplicationContext:284 - Root WebApplicationContext: initialization completed in 1761 ms
+[XD][ INFO] 2019-11-28 15:22:41 [restartedMain] ThreadPoolTaskExecutor#initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 15:22:41 [restartedMain] WelcomePageHandlerMapping#<init>:58 - Adding welcome page template: index
+[XD][ INFO] 2019-11-28 15:22:41 [restartedMain] OptionalLiveReloadServer#startServer:57 - LiveReload server is running on port 35729
+[XD][ INFO] 2019-11-28 15:22:41 [restartedMain] Http11NioProtocol#log:173 - Starting ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 15:22:41 [restartedMain] TomcatWebServer#start:202 - Tomcat started on port(s): 8089 (http) with context path ''
+[XD][ INFO] 2019-11-28 15:22:41 [restartedMain] SpringbatisApplication#logStarted:59 - Started SpringbatisApplication in 3.64 seconds (JVM running for 5.269)
+[XD][ INFO] 2019-11-28 15:22:54 [http-nio-8089-exec-1] [/]#log:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[XD][ INFO] 2019-11-28 15:22:54 [http-nio-8089-exec-1] DispatcherServlet#initServletBean:524 - Initializing Servlet 'dispatcherServlet'
+[XD][ INFO] 2019-11-28 15:22:54 [http-nio-8089-exec-1] DispatcherServlet#initServletBean:546 - Completed initialization in 8 ms
+[XD][ INFO] 2019-11-28 15:27:35 [Thread-13] ThreadPoolTaskExecutor#shutdown:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 15:27:36 [restartedMain] SpringbatisApplication#logStarting:50 - Starting SpringbatisApplication on ITP0020 with PID 43864 (D:\00-installtools\ideaWorkspace\springbatis\target\classes started by 002832 in D:\00-installtools\ideaWorkspace\springbatis)
+[XD][ INFO] 2019-11-28 15:27:36 [restartedMain] SpringbatisApplication#logStartupProfileInfo:648 - No active profile set, falling back to default profiles: default
+[XD][ INFO] 2019-11-28 15:27:37 [restartedMain] TomcatWebServer#initialize:90 - Tomcat initialized with port(s): 8089 (http)
+[XD][ INFO] 2019-11-28 15:27:37 [restartedMain] Http11NioProtocol#log:173 - Initializing ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 15:27:37 [restartedMain] StandardService#log:173 - Starting service [Tomcat]
+[XD][ INFO] 2019-11-28 15:27:37 [restartedMain] StandardEngine#log:173 - Starting Servlet engine: [Apache Tomcat/9.0.24]
+[XD][ INFO] 2019-11-28 15:27:37 [restartedMain] [/]#log:173 - Initializing Spring embedded WebApplicationContext
+[XD][ INFO] 2019-11-28 15:27:37 [restartedMain] ContextLoader#prepareWebApplicationContext:284 - Root WebApplicationContext: initialization completed in 999 ms
+[XD][ INFO] 2019-11-28 15:27:37 [restartedMain] ThreadPoolTaskExecutor#initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 15:27:37 [restartedMain] WelcomePageHandlerMapping#<init>:58 - Adding welcome page template: index
+[XD][ INFO] 2019-11-28 15:27:37 [restartedMain] OptionalLiveReloadServer#startServer:57 - LiveReload server is running on port 35729
+[XD][ INFO] 2019-11-28 15:27:37 [restartedMain] Http11NioProtocol#log:173 - Starting ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 15:27:37 [restartedMain] TomcatWebServer#start:202 - Tomcat started on port(s): 8089 (http) with context path ''
+[XD][ INFO] 2019-11-28 15:27:37 [restartedMain] SpringbatisApplication#logStarted:59 - Started SpringbatisApplication in 1.831 seconds (JVM running for 301.132)
+[XD][ INFO] 2019-11-28 15:27:37 [restartedMain] ConditionEvaluationDeltaLoggingListener#onApplicationEvent:63 - Condition evaluation unchanged
+[XD][ INFO] 2019-11-28 15:27:46 [Thread-21] ThreadPoolTaskExecutor#shutdown:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 15:27:46 [restartedMain] SpringbatisApplication#logStarting:50 - Starting SpringbatisApplication on ITP0020 with PID 43864 (D:\00-installtools\ideaWorkspace\springbatis\target\classes started by 002832 in D:\00-installtools\ideaWorkspace\springbatis)
+[XD][ INFO] 2019-11-28 15:27:46 [restartedMain] SpringbatisApplication#logStartupProfileInfo:648 - No active profile set, falling back to default profiles: default
+[XD][ INFO] 2019-11-28 15:27:47 [restartedMain] TomcatWebServer#initialize:90 - Tomcat initialized with port(s): 8089 (http)
+[XD][ INFO] 2019-11-28 15:27:47 [restartedMain] Http11NioProtocol#log:173 - Initializing ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 15:27:47 [restartedMain] StandardService#log:173 - Starting service [Tomcat]
+[XD][ INFO] 2019-11-28 15:27:47 [restartedMain] StandardEngine#log:173 - Starting Servlet engine: [Apache Tomcat/9.0.24]
+[XD][ INFO] 2019-11-28 15:27:47 [restartedMain] [/]#log:173 - Initializing Spring embedded WebApplicationContext
+[XD][ INFO] 2019-11-28 15:27:47 [restartedMain] ContextLoader#prepareWebApplicationContext:284 - Root WebApplicationContext: initialization completed in 843 ms
+[XD][ INFO] 2019-11-28 15:27:47 [restartedMain] ThreadPoolTaskExecutor#initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 15:27:47 [restartedMain] WelcomePageHandlerMapping#<init>:58 - Adding welcome page template: index
+[XD][ INFO] 2019-11-28 15:27:48 [restartedMain] OptionalLiveReloadServer#startServer:57 - LiveReload server is running on port 35729
+[XD][ INFO] 2019-11-28 15:27:48 [restartedMain] Http11NioProtocol#log:173 - Starting ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 15:27:48 [restartedMain] TomcatWebServer#start:202 - Tomcat started on port(s): 8089 (http) with context path ''
+[XD][ INFO] 2019-11-28 15:27:48 [restartedMain] SpringbatisApplication#logStarted:59 - Started SpringbatisApplication in 1.465 seconds (JVM running for 311.505)
+[XD][ INFO] 2019-11-28 15:27:48 [restartedMain] ConditionEvaluationDeltaLoggingListener#onApplicationEvent:63 - Condition evaluation unchanged
+[XD][ INFO] 2019-11-28 15:27:52 [Thread-27] ThreadPoolTaskExecutor#shutdown:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 15:27:53 [restartedMain] SpringbatisApplication#logStarting:50 - Starting SpringbatisApplication on ITP0020 with PID 43864 (D:\00-installtools\ideaWorkspace\springbatis\target\classes started by 002832 in D:\00-installtools\ideaWorkspace\springbatis)
+[XD][ INFO] 2019-11-28 15:27:53 [restartedMain] SpringbatisApplication#logStartupProfileInfo:648 - No active profile set, falling back to default profiles: default
+[XD][ INFO] 2019-11-28 15:27:54 [restartedMain] TomcatWebServer#initialize:90 - Tomcat initialized with port(s): 8089 (http)
+[XD][ INFO] 2019-11-28 15:27:54 [restartedMain] Http11NioProtocol#log:173 - Initializing ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 15:27:54 [restartedMain] StandardService#log:173 - Starting service [Tomcat]
+[XD][ INFO] 2019-11-28 15:27:54 [restartedMain] StandardEngine#log:173 - Starting Servlet engine: [Apache Tomcat/9.0.24]
+[XD][ INFO] 2019-11-28 15:27:54 [restartedMain] [/]#log:173 - Initializing Spring embedded WebApplicationContext
+[XD][ INFO] 2019-11-28 15:27:54 [restartedMain] ContextLoader#prepareWebApplicationContext:284 - Root WebApplicationContext: initialization completed in 500 ms
+[XD][ INFO] 2019-11-28 15:27:54 [restartedMain] ThreadPoolTaskExecutor#initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 15:27:54 [restartedMain] WelcomePageHandlerMapping#<init>:58 - Adding welcome page template: index
+[XD][ INFO] 2019-11-28 15:27:54 [restartedMain] OptionalLiveReloadServer#startServer:57 - LiveReload server is running on port 35729
+[XD][ INFO] 2019-11-28 15:27:54 [restartedMain] Http11NioProtocol#log:173 - Starting ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 15:27:54 [restartedMain] TomcatWebServer#start:202 - Tomcat started on port(s): 8089 (http) with context path ''
+[XD][ INFO] 2019-11-28 15:27:54 [restartedMain] SpringbatisApplication#logStarted:59 - Started SpringbatisApplication in 0.907 seconds (JVM running for 317.92)
+[XD][ INFO] 2019-11-28 15:27:54 [restartedMain] ConditionEvaluationDeltaLoggingListener#onApplicationEvent:63 - Condition evaluation unchanged
+[XD][ INFO] 2019-11-28 15:27:59 [http-nio-8089-exec-2] [/]#log:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[XD][ INFO] 2019-11-28 15:27:59 [http-nio-8089-exec-2] DispatcherServlet#initServletBean:524 - Initializing Servlet 'dispatcherServlet'
+[XD][ INFO] 2019-11-28 15:27:59 [http-nio-8089-exec-2] DispatcherServlet#initServletBean:546 - Completed initialization in 3 ms
+[XD][ INFO] 2019-11-28 16:44:21 [restartedMain] SpringbatisApplication#logStarting:50 - Starting SpringbatisApplication on ITP0020 with PID 74000 (D:\copy\springbatis\target\classes started by 002832 in D:\copy\springbatis)
+[XD][ INFO] 2019-11-28 16:44:21 [restartedMain] SpringbatisApplication#logStartupProfileInfo:648 - No active profile set, falling back to default profiles: default
+[XD][ INFO] 2019-11-28 16:44:21 [restartedMain] DevToolsPropertyDefaultsPostProcessor#logTo:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[XD][ INFO] 2019-11-28 16:44:21 [restartedMain] DevToolsPropertyDefaultsPostProcessor#logTo:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[XD][ INFO] 2019-11-28 16:44:23 [restartedMain] TomcatWebServer#initialize:90 - Tomcat initialized with port(s): 8089 (http)
+[XD][ INFO] 2019-11-28 16:44:23 [restartedMain] Http11NioProtocol#log:173 - Initializing ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 16:44:23 [restartedMain] StandardService#log:173 - Starting service [Tomcat]
+[XD][ INFO] 2019-11-28 16:44:23 [restartedMain] StandardEngine#log:173 - Starting Servlet engine: [Apache Tomcat/9.0.24]
+[XD][ INFO] 2019-11-28 16:44:23 [restartedMain] [/]#log:173 - Initializing Spring embedded WebApplicationContext
+[XD][ INFO] 2019-11-28 16:44:23 [restartedMain] ContextLoader#prepareWebApplicationContext:284 - Root WebApplicationContext: initialization completed in 2064 ms
+[XD][ INFO] 2019-11-28 16:44:24 [restartedMain] ThreadPoolTaskExecutor#initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+[XD][ INFO] 2019-11-28 16:44:24 [restartedMain] WelcomePageHandlerMapping#<init>:58 - Adding welcome page template: index
+[XD][ INFO] 2019-11-28 16:44:24 [restartedMain] OptionalLiveReloadServer#startServer:57 - LiveReload server is running on port 35729
+[XD][ INFO] 2019-11-28 16:44:24 [restartedMain] Http11NioProtocol#log:173 - Starting ProtocolHandler ["http-nio-8089"]
+[XD][ INFO] 2019-11-28 16:44:24 [restartedMain] TomcatWebServer#start:202 - Tomcat started on port(s): 8089 (http) with context path ''
+[XD][ INFO] 2019-11-28 16:44:24 [restartedMain] SpringbatisApplication#logStarted:59 - Started SpringbatisApplication in 4.218 seconds (JVM running for 5.209)
+[XD][ INFO] 2019-11-28 16:44:30 [http-nio-8089-exec-1] [/]#log:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[XD][ INFO] 2019-11-28 16:44:30 [http-nio-8089-exec-1] DispatcherServlet#initServletBean:524 - Initializing Servlet 'dispatcherServlet'
+[XD][ INFO] 2019-11-28 16:44:30 [http-nio-8089-exec-1] DispatcherServlet#initServletBean:546 - Completed initialization in 7 ms

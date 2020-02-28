@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+  <script type="text/javascript" th:src="@{/js/jquery-1.7.1.js}"></script>
+  <script type="text/javascript"
+          th:src="@{/js/index.js}"></script>
+  <meta charset="UTF-8">
+  <title>Index</title>
+</head>
+<body>
+<!-- 用户编辑模态框开始 -->
+<div th:fragment="editUserFragment">
+  ….内容
+</div>
+<div th:fragment="params(one,two)">
+  <p th:text="${one}"></p>
+  <p th:text="${two}"></p>
+</div>
+</body>
+</html>
